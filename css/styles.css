@@ -1,0 +1,222 @@
+:root {
+  --primary-brend: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text-brand: #434455;
+  --suble-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white-clr: #ffffff;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-brand);
+}
+
+ul {
+  list-style-type: none;
+}
+.page-header {
+  background: var(--white-clr);
+}
+.logo-first {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.166;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-brend);
+}
+.logo-second {
+  color: var(--dark);
+}
+
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--dark);
+}
+.link:hover,
+.link:focus {
+  color: var(--pressed-state);
+}
+.mail {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--text-brand);
+}
+.mail:hover,
+.mail:focus {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--pressed-state);
+}
+.phone {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #434455;
+}
+.slogan {
+  background: var(--dark);
+}
+.title-slogan {
+  font-size: 56px;
+  line-height: 1.071;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-clr);
+}
+.slogan-button {
+  font-family: 'Roboto', sans-serif;
+  padding: 16px 32px;
+  background: var(--primary-brend);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--white-clr);
+}
+.slogan-button:hover,
+.slogan-button:focus {
+  font-family: 'Roboto', sans-serif;
+  padding: 16px 32px;
+  background: var(--pressed-state);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-clr);
+}
+.title-directions {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.direction-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-brand);
+}
+.title-doing {
+  font-size: 36px;
+  line-height: 1.111;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.we-doing-screen {
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(2368.jpg);
+  background-blend-mode: soft-light, normal;
+  border: 1px solid var(--accent);
+}
+.team {
+  background: var(--light);
+}
+.our-team {
+  font-size: 36px;
+  line-height: 1.111;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);
+}
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-brand);
+}
+.page-footer {
+  background: var(--dark);
+}
+.logo-three {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.166;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--primary-brend);
+}
+.logo-four {
+  color: var(--light);
+}
+.title-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent);
+}
+.button-nav button {
+  padding: 12px 24px;
+  background: var(--light);
+  border: 1px solid var(--light);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--primary-brend);
+}
+.button-nav button:hover,
+.button-nav button:focus {
+  background: var(--pressed-state);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: var(--light);
+}
+.apps {
+  background: none;
+}
+.apps h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.apps p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-brand);
+}
